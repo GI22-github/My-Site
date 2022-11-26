@@ -1,0 +1,155 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5rem; /*Font size -> 16px = 100% = 1em i.e. 1 width size of letter M, em is phonetic pronounciation of letter M here (from old days)*/
+  /*Use 'rem', where r stands for root. This means it only considers current root value and does not add it with parent em values if specified there*/
+  font-family: 'Sacramento', cursive;
+  color:#E38B29;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:#E38B29;
+  font-weight:normal;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#F1A661;
+}
+
+.top-container {
+  background-color: #FFD8A9;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #F1A661;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 20px;
+  width: 8%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 225px;
+  width: 8%;
+}
+
+.footer-link {
+color:#FFD8A9;
+font-size:0.8 rem;
+font-family: 'Montserrat' sans-serif;
+text-decoration: none;
+}
+
+a:hover {
+  color:white;
+}
+
+.copyright {
+  color:white;
+  font-size: 0.2 rem;
+  font-family: 'Montserrat'sans-serif;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.erp {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.checklist {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.troubleshoot {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.contact-msg {
+  width: 35%;
+  margin: 40px auto 70px;
+  line-height: 2;
+
+}
+
+.profile {
+  width:30%;
+  margin:auto;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width:thick;
+  border-color: grey;
+  width: 4%;
+}
+
+.btn {
+  background: #F1A661;
+  background-image: -webkit-linear-gradient(top, #F1A661, #E38B29);
+  background-image: -moz-linear-gradient(top, #F1A661, #E38B29);
+  background-image: -ms-linear-gradient(top, #F1A661, #E38B29);
+  background-image: -o-linear-gradient(top, #F1A661, #E38B29);
+  background-image: linear-gradient(to bottom, #F1A661, #E38B29);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
